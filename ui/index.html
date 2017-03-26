@@ -1,17 +1,50 @@
 <!doctype html>
 <html>
     <head>
+		<link rel="icon" href="https://3.bp.blogspot.com/-3MLoeceCyek/V90X0MQhZYI/AAAAAAAACV8/QHO8sLeEZpo18KUjZOHP6Xey9UVCdH7_wCLcB/s1600/Sid_Editz_Logo_new.png">
+		<title>Harry Potter | Main Page</title>
         <link href="/ui/style.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
+		<div class="container">
+			<div class="center">
+				<img id = "logo" src="https://3.bp.blogspot.com/-3MLoeceCyek/V90X0MQhZYI/AAAAAAAACV8/QHO8sLeEZpo18KUjZOHP6Xey9UVCdH7_wCLcB/s1600/Sid_Editz_Logo_new.png" class="img-medium"/>
+			</div>
+		</div>
+		<hr/>
         <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+        <div id = "main-text" class="center text-big bold color">
+            Hi! I am Siddharth Hariprasad & this is my first webapp.<br>
+			Click the links below to go to the respective sites.<br>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
+		<div class="center">
+			<h3>
+				<p>
+					<a href = "/article-one"> Harry Potter</a><br><br>
+					<a href = "/article-two"> Plot</a><br><br>
+					<a href = "/article-three">Cultural Impact</a><br><br>
+					<a href = "/article-four">The Wizarding World of Harry Potter</a><br><br>
+					<a href = "/article-five">Characters</a><br><br>
+					<a href = "/article-twelve">Wands</a><br><br>
+				</p>
+			</h3>
+			<hr/>
+			<div class="comments">
+            		<input type="text" id="name" placeholder="Comment">
+            		<input type="submit" value="Submit" id="submit_btn">
+            		<ul id="namelist">
+            		</ul>
+            </div>
+            <hr/>
+		</div>
+		<div class="footer">
+			<p>
+				This button <button id="counter">Click me!</button> has been clicked <span id="count">0</span> times.
+				<marquee behavior="alternate">Made with ❤ by Siddharth Hariprasad 😎</marquee>
+			</p>
+		</div>
+		<script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
 </html>
